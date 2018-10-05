@@ -1,0 +1,71 @@
+@charset "utf-8";
+
+body {
+    position: relative;
+    background-image: url(../images/football-pitch.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.logo {
+    height: 150px;
+    position: absolute;
+    right: 10px;
+    top: 400px;
+    padding: 10px 16px;
+}
+
+
+h1 {
+    color: black;
+    font-size: 50px;
+    font-style: oblique;
+    text-shadow: 2px 2px white;
+    box-sizing: border-box;
+    background-color: rgba(255, 255, 255, 0.15); 
+}
+
+
+h3 {
+    background: black;
+    color: white;
+    text-align: center; 
+    margin: 0px;   
+}
+
+
+nav {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+}
+
+
+nav a {
+    padding: 2px 40px;
+    right: 20px;
+    display: inline-block;
+    border: 2px solid white;
+    background-color: blue;
+    color: white;
+    margin-top: 15px;
+    border-radius: 100px;
+}
+
+section {
+    box-sizing: border-box;
+    background-color: rgba(255, 255, 255, 0.3); 
+    width: 50%;
+    margin-left: 2%;
+    margin-top: 30px;   
+}
+
+section .h3 {
+    background-color: aliceblue; 
+}
+
+.active {
+    background: green;
+}

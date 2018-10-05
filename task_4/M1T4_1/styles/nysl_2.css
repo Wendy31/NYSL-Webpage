@@ -1,0 +1,70 @@
+@charset "utf-8";
+
+
+.logo {
+    height: 105px;
+    position: absolute;
+    left: 10px;
+    top: 330px;
+    padding: 10px 16px;
+}
+
+
+.headerbackground {
+    background-image: url(/images/design2_image1.jpeg);
+        background-position: 0% 0%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 230px;
+    margin-top: 50px;   
+}
+
+
+h1 {
+    left: auto;
+    color: black;
+    position: relative;
+    top: -40px; 
+}
+
+
+h3 {
+    background: black;
+    color: white;
+    text-align: center;
+    background-position: top;
+    margin: 0px
+}
+
+
+nav {
+    position: absolute;
+    top: 25px;
+    right: 20px;   
+}
+
+
+nav a {
+    
+    padding: 0px 20px;
+    right: 20px;
+    display: inline-block;
+    border: 2px solid navy;
+    background-color: blue;
+    color: white;
+    margin-top: 15px;   
+}
+
+
+section {
+    display: block;
+    float: right;
+    width: 75%;
+    position: relative;
+    margin-top: 30px;
+}
+
+
+.active {
+    background: green;
+    }
